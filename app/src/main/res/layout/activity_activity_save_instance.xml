@@ -11,4 +11,15 @@
         android:layout_height="wrap_content"
         android:inputType="text"/>
 
+    <Button
+        android:id="@+id/button_save_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_save_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
 </LinearLayout>
