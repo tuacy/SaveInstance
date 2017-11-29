@@ -5,6 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
+    <com.tuacy.saveinstance.view.InstanceView
+        android:id="@+id/view_instance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

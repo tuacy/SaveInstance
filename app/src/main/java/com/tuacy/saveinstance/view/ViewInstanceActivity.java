@@ -6,7 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.tuacy.saveinstance.R;
 
-
+/**
+ * 自定义的View一定要设置id，要不然调用不到View的onSaveInstanceState()、onRestoreInstanceState()方法。
+ */
 public class ViewInstanceActivity extends AppCompatActivity {
 
 	@Override

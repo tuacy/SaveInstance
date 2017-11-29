@@ -104,7 +104,9 @@ public class ActivityInstanceActivity extends AppCompatActivity {
 
 	@Override
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
+		//保存视图树里面的一些信息和里面的Fragment数据
 		super.onRestoreInstanceState(savedInstanceState);
+		//保存自定义的一些信息
 		mValueText = savedInstanceState.getString(BUNDLE_VALUE);
 		mTextView.setText(mValueText == null ? "" : mValueText);
 		Log.d("tuacy", "onRestoreInstanceState");

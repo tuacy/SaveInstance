@@ -21,6 +21,12 @@
 
         <activity android:name=".fragment.FragmentInstanceActivity"/>
 
+        <activity android:name=".fragment.single.FragmentSingleActivity"/>
+
+        <activity android:name=".fragment.multi.FragmentMultiActivity" />
+
+        <activity android:name=".fragment.backstack.FragmentBackStackActivity" />
+
         <activity android:name=".view.ViewInstanceActivity"/>
     </application>
 
